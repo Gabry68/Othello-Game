@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Othello-Game/static/css/main.8daec520.css",
+    "main.js": "/Othello-Game/static/js/main.c9850575.js",
+    "index.html": "/Othello-Game/index.html",
+    "main.8daec520.css.map": "/Othello-Game/static/css/main.8daec520.css.map",
+    "main.c9850575.js.map": "/Othello-Game/static/js/main.c9850575.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8daec520.css",
+    "static/js/main.c9850575.js"
+  ]
+}
