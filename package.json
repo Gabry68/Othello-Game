@@ -1,7 +1,7 @@
 {
   "name": "othello-game",
   "homepage": "./",
-  "homepage": "src/index.html",
+  "homepage": "public/index.html",
   "version": "1.0.0",
   "private": true,
   "dependencies": {
