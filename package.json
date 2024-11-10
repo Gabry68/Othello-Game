@@ -1,7 +1,6 @@
 {
   "name": "othello-game",
-  "homepage": "./",  // Questo usa il percorso relativo invece dell'URL completo
-  // oppure
+  "homepage": "./",
   "homepage": "src/index.html",
   "version": "1.0.0",
   "private": true,
