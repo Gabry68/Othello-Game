@@ -1,3 +1,14 @@
+Nome del file: .gitignore
+----------------------------------------
+node_modules/
+.env
+.env.local
+build/
+dist/
+.DS_Store 
+
+--------------------------------------------------------------------------------
+
 Nome del file: package.json
 ----------------------------------------
 {
@@ -5,10 +16,10 @@ Nome del file: package.json
   "version": "1.0.0",
   "private": true,
   "dependencies": {
+    "lucide-react": "^0.263.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-scripts": "5.0.1",
-    "lucide-react": "^0.263.1"
+    "react-scripts": "5.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -35,10 +46,22 @@ Nome del file: package.json
     ]
   },
   "devDependencies": {
-    "tailwindcss": "^3.3.0",
-    "postcss": "^8.4.31",
-    "autoprefixer": "^10.4.16"
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.47",
+    "tailwindcss": "^3.4.14"
   }
+}
+
+
+--------------------------------------------------------------------------------
+
+Nome del file: postcss.config.js
+----------------------------------------
+module.exports = {
+  plugins: {
+    tailwindcss: {},
+    autoprefixer: {},
+  },
 }
 
 
@@ -485,7 +508,9 @@ Nome del file: tailwind.config.js
 ----------------------------------------
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [],
+  content: [
+    "./src/**/*.{js,jsx,ts,tsx}",
+  ],
   theme: {
     extend: {},
   },
