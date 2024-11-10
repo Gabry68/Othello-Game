@@ -1,0 +1,48 @@
+/* Stili globali */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Stili personalizzati per il body */
+body {
+  margin: 0;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #111827; /* bg-gray-900 */
+}
+
+/* Animazioni per i dischi */
+.disc-flip {
+  transition: transform 0.3s ease-in-out;
+}
+
+.disc-flip:hover {
+  transform: scale(0.95);
+}
+
+/* Stili per il cursore sui movimenti validi */
+.valid-move {
+  cursor: pointer;
+}
+
+/* Ottimizzazione per dispositivi mobili */
+@media (max-width: 640px) {
+  .grid {
+    gap: 0.5rem;
+    padding: 0.5rem;
+  }
+}
+
+/* Animazione per il computer thinking */
+@keyframes pulse {
+  0% { opacity: 1; }
+  50% { opacity: 0.5; }
+  100% { opacity: 1; }
+}
+
+.thinking {
+  animation: pulse 1.5s infinite;
+}
