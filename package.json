@@ -1,12 +1,13 @@
 {
-  "name": "othello-game",
-  "version": "1.0.0",
+"name": "othello-game",
+  "homepage": "https://Gabry68.github.io/Othello-Game",
+  "version": "0.1.0",
   "private": true,
-  "dependencies": {
-    "lucide-react": "^0.263.1",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-scripts": "5.0.1"
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build"
   },
   "scripts": {
     "start": "react-scripts start",
