@@ -1,7 +1,6 @@
 {
   "name": "othello-game",
-  "homepage": "./",
-  "homepage": "public/index.html",
+  "homepage": "https://Gabry68.github.io/Othello-Game",  // Modifica questa riga
   "version": "1.0.0",
   "private": true,
   "dependencies": {
